@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\BL.csproj",
+      "projectPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\obj\\",
+      "outputPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

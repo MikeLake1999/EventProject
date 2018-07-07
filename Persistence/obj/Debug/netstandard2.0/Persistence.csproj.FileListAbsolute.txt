@@ -1,0 +1,9 @@
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\Persistence\bin\Debug\netstandard2.0\Persistence.deps.json
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\Persistence\bin\Debug\netstandard2.0\Persistence.dll
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\Persistence\bin\Debug\netstandard2.0\Persistence.pdb
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\Persistence\obj\Debug\netstandard2.0\Persistence.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfo.cs
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\Persistence\obj\Debug\netstandard2.0\Persistence.dll
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\Persistence\obj\Debug\netstandard2.0\Persistence.pdb

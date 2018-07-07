@@ -1633,11 +1633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1654,11 +1654,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\Persistence\\Persistence.csproj": {
-              "projectPath": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\Persistence\\Persistence.csproj"
+            "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\Persistence\\Persistence.csproj"
             },
-            "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\BL.csproj": {
-              "projectPath": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\BL.csproj"
+            "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\BL\\BL.csproj"
             }
           }
         }

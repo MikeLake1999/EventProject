@@ -6131,11 +6131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL.Test\\DAL.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL.Test\\DAL.Test.csproj",
       "projectName": "DAL.Test",
-      "projectPath": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL.Test\\DAL.Test.csproj",
+      "projectPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL.Test\\DAL.Test.csproj",
       "packagesPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL.Test\\obj\\",
+      "outputPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6152,8 +6152,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj": {
-              "projectPath": "c:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj"
+            "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj"
             }
           }
         }
