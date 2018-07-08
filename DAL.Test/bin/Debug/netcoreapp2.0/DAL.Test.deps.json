@@ -11,6 +11,7 @@
           "DAL": "1.0.0",
           "Microsoft.NET.Test.Sdk": "15.5.0",
           "MySql.Data": "8.0.11",
+          "Persistence": "1.0.0",
           "xunit": "2.3.1",
           "xunit.runner.visualstudio": "2.3.1"
         },

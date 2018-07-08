@@ -5,12 +5,12 @@ namespace Persistence
 {
     public class Event
     {
-        public string ID_Event { set; get; }
+        public int? ID_Event { set; get; }
         public string Name_Event { set; get; }
         public string Description { set; get; }
         public string Address_Event { set; get; }
 
-        public DateTime Time { set; get; }
+        public string Time { set; get; }
 
         public Event() { }
 

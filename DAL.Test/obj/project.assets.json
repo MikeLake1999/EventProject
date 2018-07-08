@@ -6120,6 +6120,7 @@
       "Microsoft.NET.Test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "MySql.Data >= 8.0.11",
+      "Persistence >= 1.0.0",
       "xunit >= 2.3.1",
       "xunit.runner.visualstudio >= 2.3.1"
     ]
@@ -6154,6 +6155,9 @@
           "projectReferences": {
             "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj": {
               "projectPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\DAL\\DAL.csproj"
+            },
+            "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\Persistence\\Persistence.csproj"
             }
           }
         }

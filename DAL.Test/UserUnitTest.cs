@@ -13,7 +13,7 @@ namespace DAL.Test
         [Fact]
         public void LoginTest1()
         {
-            string username = "manager_01";
+            string username = "manager";
             string password = "123456";
             User user = userDAL.Login(username, password);
 
@@ -24,7 +24,7 @@ namespace DAL.Test
         [Fact]
         public void LoginTest2()
         {
-            string username = "staff_01";
+            string username = "staff";
             string password = "123456";
             User user = userDAL.Login(username, password);
 
