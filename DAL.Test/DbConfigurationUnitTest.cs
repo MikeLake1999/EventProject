@@ -33,5 +33,11 @@ namespace DAL.Test
         {
             Assert.NotNull(DbConfiguration.OpenDefaultConnection());
         }
+
+        [Fact]
+        public void OpenConnectionTest()
+        {
+            Assert.NotNull(DbConfiguration.OpenConnection());
+        }
     }
 }

@@ -11,8 +11,8 @@ namespace DAL.Test
         private EventDAL eventDal = new EventDAL();
         
         [Theory]
-        [InlineData("VTCA 1", "Ha Noi")]
-        [InlineData("VTCA 2", "HCM")]
+        [InlineData("VTC", "Ha Noi")]
+        [InlineData("VTCA", "HCM")]
         public void AddEventTest(string name, string address)
         {
             Event c = new Event{Name_Event=name, Address_Event=address};
