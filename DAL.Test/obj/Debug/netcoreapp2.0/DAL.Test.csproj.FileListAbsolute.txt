@@ -18,3 +18,4 @@ C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\DAL.Test\obj\Debug\n
 C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\DAL.Test\obj\Debug\netcoreapp2.0\DAL.Test.AssemblyInfo.cs
 C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\DAL.Test\obj\Debug\netcoreapp2.0\DAL.Test.dll
 C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\DAL.Test\obj\Debug\netcoreapp2.0\DAL.Test.pdb
+C:\Users\Administrator.DESKTOP-NJ7G7VR\Desktop\EventProject\DAL.Test\bin\Debug\netcoreapp2.0\ConnectionString.txt
