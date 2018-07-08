@@ -32,13 +32,8 @@ namespace DAL.Test
             Assert.Equal(username, user.User_Name);
         }
 
-        [Fact]
-        public void LoginTest3()
-        {
-            Assert.Null(userDAL.Login("customer_01", "123456789"));
-        }
 
-        [Fact]
+            [Fact]
         public void LoginTest4()
         {
             Assert.Null(userDAL.Login("'?^%'", "'.:=='"));

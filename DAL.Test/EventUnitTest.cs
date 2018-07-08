@@ -11,8 +11,8 @@ namespace DAL.Test
         private EventDAL eventDal = new EventDAL();
         
         [Theory]
-        [InlineData("VTCAs", "Ha Noi")]
-        [InlineData("VTCA", "HCM")]
+        [InlineData("VTCA 1", "Ha Noi")]
+        [InlineData("VTCA 2", "HCM")]
         public void AddEventTest(string name, string address)
         {
             Event c = new Event{Name_Event=name, Address_Event=address};
@@ -24,7 +24,7 @@ namespace DAL.Test
         [Theory]
         [InlineData(1)]
         [InlineData(2)]
-        public void GetByEventIdTest(int id)
+        public void GetEventIdTest(int id)
         {
             Event result = eventDal.GetById(id);
             Assert.NotNull(result);

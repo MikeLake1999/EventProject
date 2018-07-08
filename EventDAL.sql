@@ -19,7 +19,7 @@ create table if not exists UserDB(
 );
 
 create table if not exists EventDB(
-	event_id varchar(50) primary key,
+	event_id int auto_increment primary key,
     event_name varchar(100) not null,
     description varchar(100),
     address varchar(100),			
@@ -45,9 +45,20 @@ begin
 end $$
 delimiter ;
 
+insert into UserDB(user_name, user_password, name_user, age, type_account, job, address, email, phone_number) values
+	('manager','123456','manager',18, 1, 'Manager', 'Ha Noi', 'manager@gmail.com', 123456789),
+    ('staff','123456','staff',18, 2, 'Dicrector', 'Ha Noi', 'staff@gmail.com', 12345789);
+
 drop user if exists 'EventUser'@'localhost';
 create user if not exists 'EventUser'@'localhost' identified by '123456789';
     grant all on UserDB to 'EventUser'@'localhost';
     grant all on EventDB to 'EventUser'@'localhost';
     grant all on EventDetailsDB to 'EventUser'@'localhost';
+    
+select event_id, event_name,
+ifnull(address, '') as address
+from EventDB where event_id=1;
+
+select LAST_INSERT_ID();
+select event_id from EventDB order by event_id desc limit 1;
     

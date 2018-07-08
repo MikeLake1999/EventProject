@@ -27,5 +27,7 @@ namespace Persistence
             this.User_Name = User_Name;
             this.Password = Password;
         }
+
+        
     }
 }

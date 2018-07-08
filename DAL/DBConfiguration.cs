@@ -7,7 +7,7 @@ namespace DAL
 {
     public class DbConfiguration
     {
-        private static string CONNECTION_STRING = "server=localhost;user id=EventUser;password=123456789;port=3306;database=userdb;SslMode=None";
+        private static string CONNECTION_STRING = "server=localhost;user id=EventUser;password=123456789;port=3306;database=EventDB;SslMode=None";
         private static string conString = null;
         public static MySqlConnection OpenDefaultConnection()
         {
