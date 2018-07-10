@@ -47,13 +47,21 @@ end $$
 delimiter ;
 
 insert into UserDB(user_name, user_password, name_user, age, type_account, job, address, email, phone_number) values
-	('manager','123456','manager',18, 1, 'Manager', 'Ha Noi', 'manager@gmail.com', 123456789),
-    ('staff','123456','staff',18, 2, 'Dicrector', 'Ha Noi', 'staff@gmail.com', 12345789);
+	('manager','123456','manager',18, 0, 'Manager', 'Ha Noi', 'manager@gmail.com', 01695651555),
+    ('staff','123456','staff',18, 1, 'Dicrector', 'Ha Noi', 'staff@gmail.com', 0987455887),
+    ('hoangtuan','123456789','Hoàng Tuấn',18,1,'Student','Ha noi','hoangtuan124@gmail.com',01669091174),
+    ('kunkun18','kun123456','Kun Kun',25,1,'Teacher','Thai Nguyen','kunkun788@gmail.com',09869154885),
+    ('lananhi29','anh147852','Lan Anh',19,1,'Student','Thanh Hoa','lananhlun@gmail.com',01669784822);
 select * from UserDB;
 
 insert into EventDB(event_name, address, description, event_time) values
-	('BlueHole','Hai Duong','Nothing', '16.30' ),
-    ('CKTG','Hanoi', 'Nothing', '6.30');
+	('BlueHole','Hai Duong','Nothing', '16h30' ),
+    ('CKTG','Hanoi', 'Nothing', '6h30'),
+    ('đêm nhạc “Chuyện chẳng kể được” của Lê Cát Trọng Lý','số 14 Phan Huy Ích, Hà Nội','Đêm diễn này của Lý còn rất đặc biệt với người
+    yêu nhạc Việt Nam và quốc tế vì sự tham gia các nghệ sĩ cello Nguyễn Thanh Tú, oboe Nguyễn Hoàng Tùng và piano Cao
+    Thanh Lan.','20 giờ, ngày 23 và 24/02/2018'),
+    ('buổi chiếu phim “Vũ điệu Ba lê”','số 24 Tràng Tiền, Hà Nội','“Vũ điệu Ba lê” là bản giao hưởng hoàn chỉnh đưa người xem đi từ những xưởng may trang phục, qua những buổi công chiếu với các ngôi sao 
+    nổi tiếng để tới trung tâm của rạp hát nổi tiếng Opera Paris.','18 giờ, ngày 25/02/2018');
 select * from EventDB;
 
 
