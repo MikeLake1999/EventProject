@@ -196,6 +196,26 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Persistence.dll": {}
+        }
       }
     }
   },
@@ -656,31 +676,43 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "BL/1.0.0": {
+      "type": "project",
+      "path": "../BL/BL.csproj",
+      "msbuildProject": "../BL/BL.csproj"
+    },
+    "Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Persistence/Persistence.csproj",
+      "msbuildProject": "../Persistence/Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "BL >= 1.0.0",
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\.nuget\\packages\\": {},
+    "C:\\Users\\Dell\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\PL_Console\\PL_Console.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\EventProject\\PL_Console\\PL_Console.csproj",
       "projectName": "PL_Console",
-      "projectPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\PL_Console\\PL_Console.csproj",
-      "packagesPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\Desktop\\EventProject\\PL_Console\\obj\\",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\EventProject\\PL_Console\\PL_Console.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\EventProject\\PL_Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator.DESKTOP-NJ7G7VR\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -690,7 +722,14 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dell\\Desktop\\EventProject\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Desktop\\EventProject\\Persistence\\Persistence.csproj"
+            },
+            "C:\\Users\\Dell\\Desktop\\EventProject\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Desktop\\EventProject\\BL\\BL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

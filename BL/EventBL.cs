@@ -1,8 +1,7 @@
 ﻿using System;
+using System.Text.RegularExpressions;
+
 
 namespace BL
 {
-    public class Class1
-    {
-    }
 }

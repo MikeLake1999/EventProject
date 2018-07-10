@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Dell\\Desktop\\EventProject\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\EventProject\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "c:\\Users\\Dell\\Desktop\\EventProject\\Persistence\\Persistence.csproj",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\EventProject\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Dell\\Desktop\\EventProject\\Persistence\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\EventProject\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

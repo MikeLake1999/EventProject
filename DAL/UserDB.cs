@@ -57,10 +57,7 @@ namespace DAL
            user.User_Name = reader.GetString("user_name");
            user.Password = reader.GetString("user_password");
 
-            return user;
-
-            
-
+           return user;
         }  
     }
 }
